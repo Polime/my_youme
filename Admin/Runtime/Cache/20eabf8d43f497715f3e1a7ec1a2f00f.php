@@ -18,46 +18,66 @@
 	<div id="divPage">
 	<div id="divMiddle">
 		<div id="divTop">
-			<h1 id="BlogTitle"><a href="http://www.youmew.com/"><img src="__PUBLIC__/Home/images/LOGO.gif" alt="你我网" onMouseover="shake(this,'onmouseout')" /></a></h1>
+			<h1 id="BlogTitle"><a href=""><img src="__PUBLIC__/Home/images/LOGO.gif" alt="你我网" onMouseover="shake(this,'onmouseout')" /></a></h1>
 		</div>
 		<div id="divNavBar">
 <ul>
-	<li><a href="http://www.youmew.com/">首页</a></li>
-	<li><a href="http://www.youmew.com/catalog.asp?cate=2" title="感悟生活点滴">大生活</a></li>
-	<li><a href="http://www.youmew.com/catalog.asp?cate=3" title="光与影的艺术">光影斑斓</a></li>
-	<li><a href="http://www.youmew.com/catalog.asp?cate=4" title="一切有为法，如梦幻泡影，如露亦如电，应作如是观。">如是观</a></li>
-	<li><a href="http://www.youmew.com/t/" target="_blank" title="还是以前的圈圈微博！">圈圈说</a></li>
-	<li><a href="http://www.youmew.com/guestbook.html" title="沟通从这里开始">留言本</a></li>
+	<li><a href="">首页</a></li>
+	<li><a href="" title="感悟生活点滴">大生活</a></li>
+	<li><a href="" title="光与影的艺术">光影斑斓</a></li>
+	<li><a href="" title="一切有为法，如梦幻泡影，如露亦如电，应作如是观。">如是观</a></li>
+	<li><a href="" target="_blank" title="还是以前的圈圈微博！">圈圈说</a></li>
+	<li><a href="" title="沟通从这里开始">留言本</a></li>
 </ul>
 		</div>
 		<div id="divMain">
-<div class="post multi-post cate4 auth1">
+
+<?php if(is_array($list)): foreach($list as $k=>$v): ?><div class="post multi-post cate4 auth1">
 	<h4 class="post-date">2016年3月17日</h4>
-	<h2 class="post-title"><a href="http://www.youmew.com/post/77.html">明心见性的一段对话</a></h2>
+	<h2 class="post-title"><a href="">明心见性的一段对话</a></h2>
 	<div class="post-body">
 		<p>以下是我和妹子聊到房屋拆迁话题时的对话，希望我们能一直保持平常心，认真做自己……</p>
 	</div>
 	<h5 class="post-tags">Tags: 
 		<span class="tags">
-			<a href="http://www.youmew.com/catalog.asp?tags=%E8%A7%89%E6%82%9F">觉悟</a>&nbsp;&nbsp;
-			<a href="http://www.youmew.com/catalog.asp?tags=%E7%94%9F%E6%B4%BB">生活</a>&nbsp;&nbsp;
-			<a href="http://www.youmew.com/catalog.asp?tags=%E4%BA%BA%E7%94%9F">人生</a>&nbsp;&nbsp;
-			<a href="http://www.youmew.com/catalog.asp?tags=%E8%A7%84%E5%88%99">规则</a>&nbsp;&nbsp;
+			<a href="">觉悟</a>&nbsp;&nbsp;
+			<a href="">生活</a>&nbsp;&nbsp;
+			<a href="">人生</a>&nbsp;&nbsp;
+			<a href="">规则</a>&nbsp;&nbsp;
 		</span>
 	</h5>
 	<h6 class="post-footer">
 		发布:圈圈 | 分类:如是观 | 评论:24 | 浏览:<span id="spn77"></span>
-		<script type="text/javascript">LoadViewCount(77)</script> | <a href="http://www.youmew.com/post/77.html">阅读全文 > </a>
+		<script type="text/javascript">LoadViewCount(77)</script> | <a href="">阅读全文 > </a>
 	</h6>
- </div> 
+ </div><?php endforeach; endif; ?>
 
-<div class="post pagebar"><a href="http://www.youmew.com/"><span class="page first-page">&laquo;</span></a><span class="page now-page">1</span><a href="http://www.youmew.com/catalog.asp?page=2"><span class="page">2</span></a><a href="http://www.youmew.com/catalog.asp?page=3"><span class="page">3</span></a><a href="http://www.youmew.com/catalog.asp?page=4"><span class="page">4</span></a><a href="http://www.youmew.com/catalog.asp?page=5"><span class="page">5</span></a><a href="http://www.youmew.com/catalog.asp?page=6"><span class="page">6</span></a><a href="http://www.youmew.com/catalog.asp?page=7"><span class="page">7</span></a><a href="http://www.youmew.com/catalog.asp?page=7"><span class="page last-page">&raquo;</span></a></div>
+ <div class="post pagebar">
+	<a href=""><span class="page first-page">&laquo;</span></a><span class="page now-page">1</span>
+	<a href=""><span class="page">2</span></a>
+	<a href=""><span class="page">3</span></a>
+	<a href=""><span class="page">4</span></a>
+	<a href=""><span class="page">5</span></a>
+	<a href=""><span class="page">6</span></a>
+	<a href=""><span class="page">7</span></a>
+	<a href=""><span class="page last-page">&raquo;</span></a>
+ </div>
 		</div>
 		<div id="divSidebar">
+
+
+
 <dl class="function" id="divSearchPanel">
 <dt class="function_t">搜索</dt>
+
 <dd class="function_c">
-<div><div style="padding:0.5em 0 0.5em 1em;"><form method="post" action="http://www.youmew.com/zb_system/cmd.asp?act=Search"><input type="text" name="edtSearch" id="edtSearch" size="12" /> <input type="submit" value="提交" name="btnPost" id="btnPost" /></form></div></div>
+	<div>
+		<div style="padding:0.5em 0 0.5em 1em;">
+			<form method="post" action=""><input type="text" name="edtSearch" id="edtSearch" size="12" />
+				<input type="submit" value="提交" name="btnPost" id="btnPost" />
+			</form>
+		</div>
+	</div>
 </dd>
 </dl><dl class="function" id="divTags">
 <dt class="function_t">按标签浏览</dt>
@@ -77,7 +97,7 @@
 </dl><dl class="function" id="divMisc">
 <dt class="function_t">分享到：</dt>
 <dd class="function_c">
-<ul><li><img src="__PUBLIC__/Home/images/weixin.jpg" height="110" width="110" border="0" alt="你我网微信公众平台" title="微信扫一扫，关注圈圈的最新消息。" /></li><li><!-- Baidu Button BEGIN --><div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到百度贴吧" href="#" class="bds_tieba" data-cmd="tieba"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a></div><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["sqq","weixin","qzone","tsina","tieba","douban"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script><!-- Baidu Button END --></li><li><a href="http://www.youmew.com/feed.asp" target="_blank"><img src="__PUBLIC__/Home/images/rss.png" height="31" width="88" border="0" alt="订阅本站的 RSS 2.0 新闻聚合" /></a></li></ul>
+<ul><li><img src="__PUBLIC__/Home/images/weixin.jpg" height="110" width="110" border="0" alt="你我网微信公众平台" title="微信扫一扫，关注圈圈的最新消息。" /></li><li><div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到百度贴吧" href="#" class="bds_tieba" data-cmd="tieba"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a></div><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["sqq","weixin","qzone","tsina","tieba","douban"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script></li><li><a href="http://www.youmew.com/feed.asp" target="_blank"><img src="__PUBLIC__/Home/images/rss.png" height="31" width="88" border="0" alt="订阅本站的 RSS 2.0 新闻聚合" /></a></li></ul>
 </dd>
 </dl>
 
@@ -89,7 +109,6 @@
 	</div><div class="clear"></div>
 	</div><div class="clear"></div>
 </div>
-<!-- dd BEGIN -->
 <script language="JavaScript1.2">
 var typ=["marginTop","marginLeft"],rangeN=10,timeout=0; 
 function shake(o,end){ 
@@ -100,6 +119,5 @@ var shakeTimer=setTimeout(function(){shake(o,end)},timeout);
 o[end]=function(){clearTimeout(shakeTimer)}; 
 } 
   </script>
-<!-- dd END -->
 </body>
-</html><!-- 16ms -->
+</html>
